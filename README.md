@@ -34,15 +34,4 @@ This project utilizes several Python power-tools:
 - **`f-strings`**: For clean and precise currency formatting (e.g., `$100.00`).
 
 ## 📸 Preview
-
-```text
-       ------------ welcome to Slot ------------
-       -            *************** -
-       -            * 🥭🍎🍉🍒🍍 * -
-       -            *************** -            balance:100.00$
-       -                                       -
-       -    **** what are you here for ? **** -
-       -    * 1-play the slot machine🎰    * -
-       -    *2-recover your saved balance???* -
-       -    * 3- Exit solt game🚪        * -# slot-machine-game
-it is a simple slot machine game that  i made it my self , withou
+<img width="689" height="539" alt="image" src="https://github.com/user-attachments/assets/72e5dd14-04a3-4fa7-bb05-7573cfdb05ce" />
