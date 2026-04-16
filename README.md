@@ -13,17 +13,7 @@ A fully functional, terminal-based **Slot Machine** game featuring a sophisticat
 * **📂 File-Based Database:** Custom-built system to store player data in `.txt` files within a `saves/` directory.
 * **💰 Dynamic Payouts:** Triple symbols give a **5x** payout, while doubles give a **2x** reward!
 
-## 🚀 How to Run
 
-1.  Make sure you have **Python 3** installed.
-2.  Clone the repository:
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/Slot-Machine-Python.git](https://github.com/YOUR_USERNAME/Slot-Machine-Python.git)
-    ```
-3.  Run the script:
-    ```bash
-    python slot_machine.py
-    ```
 
 ## 🛠️ Technical Logic
 
