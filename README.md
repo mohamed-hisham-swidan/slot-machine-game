@@ -22,7 +22,7 @@ This project utilizes several Python power-tools:
 - **`random`**: To ensure fair and unpredictable slot outcomes.
 - **`os`**: To manage the local file system for saving/loading accounts.
 - **`time`**: To control the pacing and feel of the "spinning" effect.
-- **`f-strings`**: For clean and precise currency formatting (e.g., `$100.00`).
+- **`f-strings`**: For clean and precise currency formatting (`$100.00`).
 - **`json`** (optional): For structured data serialization.
 
 ## 📸 Preview
