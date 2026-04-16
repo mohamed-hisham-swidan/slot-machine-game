@@ -26,8 +26,8 @@ This project utilizes several Python power-tools:
 - **`json`** (optional): For structured data serialization.
 
 ## 📸 Preview
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/eedd53d1-364d-4587-83d0-4ceb24f2d3b9" />
 
-<img width="689" height="539" alt="Slot Machine Game Preview" src="https://github.com/user-attachments/assets/72e5dd14-04a3-4fa7-bb05-7573cfdb05ce" />
 
 ## 🚀 Getting Started
 
