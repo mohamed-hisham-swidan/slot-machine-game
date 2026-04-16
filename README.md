@@ -87,7 +87,7 @@ last_played: 2026-04-16
 |--------|---------|--------|---------|
 | Triple Match | 🍒🍒🍒 | 5x bet | Bet $10 → Win $50 |
 | Double Match | 🍊🍊🔔 | 2x bet | Bet $10 → Win $20 |
-| No Match | 🍒🔔🍊 | $0 | Bet $10 → Lose $10 |
+| lose half | 🍒🔔🍊 | .5x bet | Bet $10 → Lose $5 |
 
 ## 🔒 Security Features
 
