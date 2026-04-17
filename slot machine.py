@@ -1,4 +1,3 @@
-import math
 import random
 import os
 from time import sleep
@@ -81,8 +80,8 @@ def get_payout(balance,amount,row): # this fun is for calculating the payout of 
 
 def recovery(): #account loging in system
     global balance
-    account_name = input("enter your account name: ")
-    account_password = input("enter your password: ")
+    account_name = input("enter your account name: ").strip
+    account_password = input("enter your password: ").strip
     file_path = f"saves/{account_name}.txt"
     if os.path.exists(f"{file_path}"):
         with open(file_path, "r") as f:
@@ -99,15 +98,14 @@ def recovery(): #account loging in system
 
 def exit_game(balance): # the exit and saves account system
     global is_running
-    saving_choice = input(f"thanks for playing solt,yor current balance is: " + str(
-        balance) + "$\ndo you want to save it? (y/n): ").lower()
+    saving_choice = input(f"thanks for playing slot,yor current balance is: {balance}$\ndo you want to save it? (y/n): ")
     running3 = True
     while running3:
         if saving_choice == "y":
             new_account_password = ""
             while not new_account_password:
-                new_account_name = input("enter your new account name: ")
-                new_account_password = input("enter your new password: ")
+                new_account_name = input("enter your new account name: ").strip
+                new_account_password = input("enter your new password: ").strip
                 file_path = f"saves/{new_account_name}.txt"
                 if not new_account_name:
                     print("account name field is required!")  # making sure that user entered the account name
